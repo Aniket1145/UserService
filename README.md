@@ -4,27 +4,13 @@ This project is a .NET 8 implementation that demonstrates integration with an ex
 
 ## Project Structure
 ```
-├── 
-UserService/                 # 
-Core Class Library
-│   ├── 
-Client/                  # API 
-Client Implementation
-│   ├── 
-Models/                  # 
-Data Models/DTOs
-│   └── 
-Services/                # 
-Business Logic Services
-├── UserService.
-ConsoleApplication/  # Demo 
-Console Application
-│   └── 
-Configuration/           # App 
-Configuration
-└── UserService.
-Tests/           # Unit Tests 
-Project
+├── UserService/                     # Core Class Library
+│   ├── Client/                      # API Client Implementation
+│   ├── Models/                      # Data Models/DTOs
+│   └── Services/                    # Business Logic Services
+├── UserService.ConsoleApplication/  # Demo Console Application
+│   └── Configuration/               # App Configuration
+└── UserService.Tests/               # Unit Tests Project
 ```
 ## Build and Run
 1. Build the solution:
@@ -33,8 +19,7 @@ dotnet build
 ```
 2. Run the console application:
 ```
-cd UserService.
-ConsoleApplication
+cd UserService.ConsoleApplication
 dotnet run
 ```
 ## How It Works
