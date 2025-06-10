@@ -1,1 +1,48 @@
-.vs
+## Build results
+bin/
+obj/
+[Ll]og/
+*.log
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Rider IDE
+.idea/
+
+## VS Code
+.vscode/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+*.trx
+
+## Others
+*.dbmdl
+*.bak
+*.orig
+*.tmp
+
+## OS-generated files
+.DS_Store
+Thumbs.db
+
+## Dotnet CLI generated artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
